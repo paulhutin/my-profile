@@ -1,0 +1,140 @@
+body {
+	background-color:#fdeed7;
+	color: rgb(40, 40, 40, 1.0);
+	font-family: 'Lora', serif;
+	font-size: 18px;
+}
+h1,h2{
+	font-family: 'Montserrat', sans-serif;
+}
+h1{
+	color: rgb(117, 6, 6, 1.0);
+	font-size: 50;
+}
+h2{
+	color: darkblue;
+	font-size: 24px;
+	font-weight: lighter;
+}
+a{
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(117, 6, 6, 1.0);
+	text-decoration: none;
+	transition: color 0,3s ease;
+}
+a:hover{
+	color: darkblue;
+	text-decoration:none;
+}
+#photo{
+	border: 4px double rgb(117, 6, 6, 1.0) ;
+border-radius: 50%;
+}
+
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.card-white{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: rgb(250, 250, 250, 1.0);
+	padding: 80px;
+	margin: 80px;
+	border-radius: 5px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	height: 400px;
+	width: 700px;
+}
+ 
+ h2{
+ 	padding: 10px;
+ 	 } 
+.card-white-studies{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: rgb(250, 250, 250, 1.0);
+	padding: 40px;
+	margin: 40px;
+	border-radius: 5px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	height: 300px;
+	width: 700px;
+}
+.card-white-hobbies{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: rgb(250, 250, 250, 1.0);
+	padding: 40px;
+	margin: 80px;
+	border-radius: 5px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	height: 300px;
+	width: 700px;
+}
+.card-white-skills{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: rgb(250, 250, 250, 1.0);
+	padding: 40px;
+	margin: 80px;
+	border-radius: 5px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	height: 300px;
+	width: 700px;
+}
+.card-white-follow{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: rgb(250, 250, 250, 1.0);
+	padding: 40px;
+	margin: 80px;
+	border-radius: 5px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	height: 300px;
+	width: 700px;
+}
+.button-discover{
+
+
+                                        display: block;
+                                        background-color:rgb(117, 6, 6, 1.0);
+                                        border-radius: 10px;
+                                        border: 4px double;
+                                        color: #ffffff;
+                                        text-align: center;
+                                        font-size: 10px;
+                                        padding: 5px;
+                                        width: 200px;
+                                        cursor: pointer;
+  
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
